@@ -60,8 +60,8 @@ Follow these steps to run the project locally:
 - **Streamlit Cloud** : The platform where the app is deployed, making it accessible for users worldwide.
 
 These technologies were chosen for their flexibility, simplicity, and their ability to integrate well into an efficient workflow for deploying machine learning models as web applications.
----
 
+---
 ### Dataset
 
 This project uses 5 different datasets, each corresponding to a specific disease. The datasets have been preprocessed to handle missing values, normalize the data, and ensure consistency for model training and prediction. The datasets are as follows:
@@ -131,6 +131,7 @@ This project uses 5 different datasets, each corresponding to a specific disease
 ├── app.py
 ├── README.md
 ├── requirements.txt
+
 ---
 
 ### **Usage**
@@ -142,6 +143,7 @@ This project uses 5 different datasets, each corresponding to a specific disease
 2. **Click Predict**: After entering the values, click on the **Test Results** button to get real-time diagnostic insights.
 
 3. **View Results**: The system will provide a prediction, telling you whether you are at risk of a particular disease based on the input data.
+
 ---
 
 
