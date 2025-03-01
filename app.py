@@ -56,7 +56,7 @@ selected = st.selectbox(
      'Heart Disease Prediction',
      'Parkinsons Prediction',
      'Lung Cancer Prediction',
-     'Hypo-Thyroid Prediction']
+     'Thyroid Prediction']
 )
 
 def display_input(label, tooltip, key, type="text"):
@@ -171,10 +171,10 @@ if selected == "Lung Cancer Prediction":
         lungs_diagnosis = "The person has lung cancer disease" if lungs_prediction[0] == 1 else "The person does not have lung cancer disease"
         st.success(lungs_diagnosis)
 
-# Hypo-Thyroid Prediction Page
-if selected == "Hypo-Thyroid Prediction":
-    st.title("Hypo-Thyroid")
-    st.write("Enter the following details to predict hypo-thyroid disease:")
+# Thyroid Prediction Page
+if selected == "Thyroid Prediction":
+    st.title("Thyroid")
+    st.write("Enter the following details to predict thyroid disease:")
 
     age = display_input('Age', 'Enter age of the person', 'age', 'number')
     sex = display_input('Sex (1 = Male; 0 = Female)', 'Enter sex of the person', 'sex', 'number')
@@ -187,5 +187,5 @@ if selected == "Hypo-Thyroid Prediction":
     thyroid_diagnosis = ''
     if st.button("Thyroid Test Result"):
         thyroid_prediction = models['thyroid'].predict([[age, sex, on_thyroxine, tsh, t3_measured, t3, tt4]])
-        thyroid_diagnosis = "The person has Hypo-Thyroid disease" if thyroid_prediction[0] == 1 else "The person does not have Hypo-Thyroid disease"
+        thyroid_diagnosis = "The person has Thyroid disease" if thyroid_prediction[0] == 1 else "The person does not have Thyroid disease"
         st.success(thyroid_diagnosis)
