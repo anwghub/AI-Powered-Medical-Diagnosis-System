@@ -1,4 +1,4 @@
-# Implementation-of-AI-Powered-Medical-Diagnosis-System-P2
+## Implementation-of-AI-Powered-Medical-Diagnosis-System-P2
 ### Project Title
 AI-Powered Disease Prediction Tool
 ---
@@ -8,11 +8,12 @@ Project Overview
 This system leverages AI to help doctors diagnose diseases faster and more accurately using machine learning models like Logistic Regression and Support Vector Machines (SVM). It analyzes various medical data such as symptoms, test results, and medical images. The system is integrated into an easy-to-use Streamlit web app for real-time diagnostics.
 
 Disease Prediction Models
-Diabetes: Predicts diabetes risk based on medical features using Logistic Regression and SVM.
-Heart Disease: Predicts the likelihood of heart disease based on medical and lifestyle data.
-Thyroid Disease: Uses preprocessed data for predicting hypo- and hyperthyroidism.
-Parkinson's Disease: Predicts Parkinson's risk from voice measurements.
-Lung Cancer: Predicts lung cancer risk based on medical data.
+
+#### Diabetes: Predicts diabetes risk based on medical features using Logistic Regression and SVM.
+#### Heart Disease: Predicts the likelihood of heart disease based on medical and lifestyle data.
+#### Thyroid Disease: Uses preprocessed data for predicting hypo- and hyperthyroidism.
+#### Parkinson's Disease: Predicts Parkinson's risk from voice measurements.
+#### Lung Cancer: Predicts lung cancer risk based on medical data.
 ---
 
 ### Why It's Important
@@ -101,36 +102,35 @@ This project uses 5 different datasets, each corresponding to a specific disease
 ---
 
 ### **Project Structure**
-📂 AI-POWERED-MEDICAL-DETECTION  
-├── 📂 dataset/  
-│   ├── 📄 diabetes_data.csv  
-│   ├── 📄 heart_disease_data.csv  
-│   ├── 📄 hypothyroid.csv  
-│   ├── 📄 parkinson_data.csv  
-│   ├── 📄 preprocessed_hypothyroid.csv  
-│   ├── 📄 preprocessed_hyperthyroid.csv  
-│   ├── 📄 preprocessed_lungs_data.csv  
-│   ├── 📄 survey_lung_cancer.csv  
-│  
-├── 📂 Models/  
-│   ├── 📄 diabetes_model.sav  
-│   ├── 📄 heart_disease_model.sav  
-│   ├── 📄 lungs_disease_model.sav  
-│   ├── 📄 parkinsons_model.sav  
-│   ├── 📄 Thyroid_model.sav  
-│  
-├── 📂 notebooks/  
-│   ├── 📄 diabetes_detection.ipynb  
-│   ├── 📄 heart_disease_detection.ipynb  
-│   ├── 📄 lung_cancer.ipynb  
-│   ├── 📄 parkinson_disease.ipynb  
-│   ├── 📄 thyroid_detection.ipynb  
-│  
-├── 📂 venv/  
-├── 📄 .gitignore  
-├── 📄 app.py  
-├── 📄 README.md  
-├── 📄 requirements.txt  
+├── dataset/
+│ ├── diabetes_data.csv
+│ ├── heart_disease_data.csv
+│ ├── hypothyroid.csv
+│ ├── parkinson_data.csv
+│ ├── preprocessed_hypothyroid.csv
+│ ├── preprocessed_hyperthyroid.csv
+│ ├── preprocessed_lungs_data.csv
+│ ├── survey_lung_cancer.csv
+│
+├── models/
+│ ├── diabetes_model.sav
+│ ├── heart_disease_model.sav
+│ ├── lungs_disease_model.sav
+│ ├── parkinsons_model.sav
+│ ├── thyroid_model.sav
+│
+├── notebooks/
+│ ├── diabetes_detection.ipynb
+│ ├── heart_disease_detection.ipynb
+│ ├── lung_cancer.ipynb
+│ ├── parkinson_disease.ipynb
+│ ├── thyroid_detection.ipynb
+│
+├── venv/
+├── .gitignore
+├── app.py
+├── README.md
+├── requirements.txt
 ---
 
 ### **Usage**
@@ -144,3 +144,6 @@ This project uses 5 different datasets, each corresponding to a specific disease
 3. **View Results**: The system will provide a prediction, telling you whether you are at risk of a particular disease based on the input data.
 ---
 
+
+### Contributor
+Anwesa Ghosh
