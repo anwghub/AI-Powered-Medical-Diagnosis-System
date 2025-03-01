@@ -101,47 +101,45 @@ This project uses 5 different datasets, each corresponding to a specific disease
     - Removal of duplicate and irrelevant records to ensure clean data for training the models.
 ---
 
-### **Project Structure**
-├── dataset/
-│ ├── diabetes_data.csv
-│ ├── heart_disease_data.csv
-│ ├── hypothyroid.csv
-│ ├── parkinson_data.csv
-│ ├── preprocessed_hypothyroid.csv
-│ ├── preprocessed_hyperthyroid.csv
-│ ├── preprocessed_lungs_data.csv
-│ ├── survey_lung_cancer.csv
-│
-├── models/
-│ ├── diabetes_model.sav
-│ ├── heart_disease_model.sav
-│ ├── lungs_disease_model.sav
-│ ├── parkinsons_model.sav
-│ ├── thyroid_model.sav
-│
-├── notebooks/
-│ ├── diabetes_detection.ipynb
-│ ├── heart_disease_detection.ipynb
-│ ├── lung_cancer.ipynb
-│ ├── parkinson_disease.ipynb
-│ ├── thyroid_detection.ipynb
-│
-├── venv/
-├── .gitignore
-├── app.py
-├── README.md
-├── requirements.txt
+### Project Structure
+**dataset/**  
+- diabetes_data.csv  
+- heart_disease_data.csv  
+- hypothyroid.csv  
+- parkinson_data.csv  
+- preprocessed_hypothyroid.csv  
+- preprocessed_hyperthyroid.csv  
+- preprocessed_lungs_data.csv  
+- survey_lung_cancer.csv  
+
+**models/**  
+- diabetes_model.sav  
+- heart_disease_model.sav  
+- lungs_disease_model.sav  
+- parkinsons_model.sav  
+- thyroid_model.sav  
+
+**notebooks/**  
+- diabetes_detection.ipynb  
+- heart_disease_detection.ipynb  
+- lung_cancer.ipynb  
+- parkinson_disease.ipynb  
+- thyroid_detection.ipynb  
+
+**Others**  
+- venv/  
+- .gitignore  
+- app.py  
+- README.md  
+- requirements.txt
 
 ---
-
 ### **Usage**
 
 1. **Enter Input Values**: If you don’t have a dataset, you can manually input data such as:
    - **Symptoms**: Enter the value symptoms you're experiencing.
-   - **Test Results**: Input medical test results (e.g., blood pressure, glucose levels).
-   
+   - **Test Results**: Input medical test results (e.g., blood pressure, glucose levels).   
 2. **Click Predict**: After entering the values, click on the **Test Results** button to get real-time diagnostic insights.
-
 3. **View Results**: The system will provide a prediction, telling you whether you are at risk of a particular disease based on the input data.
 
 ---
