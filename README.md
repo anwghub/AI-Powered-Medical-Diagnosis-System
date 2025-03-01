@@ -28,9 +28,13 @@ Follow these steps to run the project locally:
    cd ai-medical-diagnosis
 
 2. **Set Up Virtual Environment:**
+   ```bash
+   python -m venv env
+   source env/bin/activate  # On macOS/Linux
+   .\env\Scripts\activate  # On Windows
 
-```bash
-python -m venv env
-source env/bin/activate  # On macOS/Linux
-.\env\Scripts\activate  # On Windows
+3.** Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
 
+ 
