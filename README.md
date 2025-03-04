@@ -1,6 +1,6 @@
 ## Implementation-of-AI-Powered-Medical-Diagnosis-System-P2
 ### Project Title
-AI-Powered Disease Prediction Tool
+AI-Powered Disease Prediction System
 ---
 
 ### Overview of the AI-Powered Medical Diagnosis System
