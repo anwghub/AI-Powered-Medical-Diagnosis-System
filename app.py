@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 # Change Name & Logo
-st.set_page_config(page_title="Disease Prediction", page_icon="⚕️")
+st.set_page_config(page_title="Disease Prediction", page_icon="💊")
 
 # Hiding Streamlit add-ons
 hide_st_style = """
@@ -48,6 +48,8 @@ models = {
     'lung_cancer': pickle.load(open('./Models/lungs_disease_model.sav', 'rb')),
     'thyroid': pickle.load(open('./Models/Thyroid_model.sav', 'rb'))
 }
+#cretae the heading for the web app
+st.title('AI-Powered Disease Prediction System')
 
 # Create a dropdown menu for disease prediction
 selected = st.selectbox(
