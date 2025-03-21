@@ -4,7 +4,7 @@ AI-Powered Disease Prediction System
 ---
 
 ### Video of the Output
-
+https://github.com/user-attachments/assets/49f29168-8d02-415c-807c-107c2042a41c
 
 ### Overview of the AI-Powered Medical Diagnosis System
 Project Overview
