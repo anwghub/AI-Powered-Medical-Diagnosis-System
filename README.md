@@ -3,6 +3,9 @@
 AI-Powered Disease Prediction System
 ---
 
+### Video of the Output
+
+
 ### Overview of the AI-Powered Medical Diagnosis System
 Project Overview
 This system leverages AI to help doctors diagnose diseases faster and more accurately using machine learning models like Logistic Regression and Support Vector Machines (SVM). It analyzes various medical data such as symptoms, test results, and medical images. The system is integrated into an easy-to-use Streamlit web app for real-time diagnostics.
